@@ -15,6 +15,6 @@ public class EmployeeController {
 	}
 	@RequestMapping("/youtube")
 	public String getAnecdote() {
-		return "https://youtube.com";
+		return "https://youtube.com/";
 	}
 }
