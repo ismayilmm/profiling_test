@@ -13,4 +13,8 @@ public class EmployeeController {
 	public String getAnecdote() {
 		return "Имя Ибрагим вам о чем нибудь говорит?";
 	}
+	@RequestMapping("/youtube")
+	public String getAnecdote() {
+		return "https://youtube.com/";
+	}
 }
